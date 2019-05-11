@@ -1,0 +1,6 @@
+install bootstrap 
+script on angular.json "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.js"
+
+npm install toastr --save  to use popup add the import to styles in angular . json "node_modules/toastr/build/toastr.min.css"
+and add to the scripts array "node_modules/toastr/build/toastr.min.js"
